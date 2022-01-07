@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <requires lib="gtk+" version="4.5.0" />
+    <!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at https://mozilla.org/MPL/2.0/.
+-->
+    <menu id="menu">
+        <submenu>
+            <attribute name="label">File</attribute>
+            <section>
+                <item>
+                    <attribute name="label">New File</attribute>
+                    <attribute name="action">win.new-file</attribute>
+                </item>
+
+            </section>
+            <section>
+                <item>
+                    <attribute name="label">Open File</attribute>
+                    <attribute name="action">win.open-file</attribute>
+                </item>
+                <item>
+                    <attribute name="label">Open Folder</attribute>
+                    <attribute name="action">win.open-folder</attribute>
+                </item>
+
+            </section>
+
+            <section>
+                <item>
+                    <attribute name="label">Save</attribute>
+                    <attribute name="action">win.save</attribute>
+                </item>
+            </section>
+        </submenu>
+
+    </menu>
+</interface>
